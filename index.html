@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#0d1117">
+    <meta name="description" content="My personal developer portfolio. Projects, interests, and things I'm building.">
+
+    <title>Sky — Developer</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand">
+                <img src="assets/dino.jpg" alt="" class="brand-icon">
+                <span>Sky</span>
+            </a>
+
+            <a href="https://github.com/notbangbang-dev"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-link">
+                GitHub <span>↗</span>
+            </a>
+        </div>
+    </header>
+
+    <main id="home" class="container">
+        <section class="profile">
+            <div class="avatar">
+                <img src="assets/dino.jpg" alt="Sky's profile picture">
+            </div>
+
+            <div class="profile-info">
+                <h1>Sky</h1>
+                <p class="username">@notbangbang</p>
+
+                <p class="bio">
+                    Developer exploring ideas, building projects,
+                    and learning something new every day.
+                </p>
+
+                <div class="profile-meta">
+                    <span>⌖ Developer</span>
+
+                    <a href="https://github.com/notbangbang-dev"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub Profile ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="panel">
+            <div class="section-heading">
+                <h2>About me</h2>
+                <span class="section-label">README.md</span>
+            </div>
+
+            <div class="readme">
+                <h3>Hey, I'm Sky! 👋</h3>
+
+                <p>
+                    I'm a developer who enjoys building things,
+                    experimenting with technology, and exploring
+                    new ideas.
+                </p>
+
+                <h3>What I'm interested in</h3>
+
+                <ul>
+                    <li>Web development and custom websites</li>
+                    <li>Discord bots and automation</li>
+                    <li>Software development</li>
+                    <li>Minecraft projects and modifications</li>
+                    <li>Exploring AI and new technologies</li>
+                </ul>
+
+                <h3>Currently working on</h3>
+
+                <p>
+                    Improving my programming skills
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="panel">
+            <div class="section-heading">
+                <h2>Projects</h2>
+                <span class="section-label">Repositories</span>
+            </div>
+
+            <div id="repositories" class="repo-grid">
+                <p class="loading">Loading repositories...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            © <span id="year"></span> Sky.
+            Built with html, css, and javascript.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

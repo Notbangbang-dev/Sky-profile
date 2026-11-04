@@ -1,3 +1,4 @@
+// More code
 const username = "notbangbang-dev";
 
 const yearElement = document.getElementById("year");

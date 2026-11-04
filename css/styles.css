@@ -164,6 +164,15 @@ nav {
     letter-spacing: -0.8px;
 }
 
+.repo-stats {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
 .username {
     color: var(--muted);
     font-size: 19px;
